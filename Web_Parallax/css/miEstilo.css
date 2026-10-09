@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenido {
+  height: 100vh;
+  background-size: cover;         
+  background-position: center;     
+  background-repeat: no-repeat;
+  background-attachment: fixed;    
+}
+
+#zona1{
+    background-image: url('..//images/Temporada\ 1.jpg');
+}
+
+#zona2{
+    background-image: url('..//images/Temporada\ 2.jpg');
+}
+
+#zona30{
+    background-image: url('..//images/Temporada\ 3.webp');
+}
+
+#zona40{
+    background-image: url('..//images/Temporada\ 4.jpg');
+}
+
+#zona50{
+    background-image: url('..//images/Inicio.png');
+}
+
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    border: 1px solid red;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.4s ease;
+}
+ul a:hover{
+    background-color: red;
+    color: blue;
+    transform: translateX(10%);
+}
